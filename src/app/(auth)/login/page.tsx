@@ -12,7 +12,7 @@ import "./login.css";
 
 export default function LoginPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
+  // const searchParams = useSearchParams();
   
   // Perbaikan: Pastikan URL bersih dari karakter aneh seperti %2F  
   const callbackUrl = decodeURIComponent(searchParams.get("callbackUrl") || "/dashboard");
