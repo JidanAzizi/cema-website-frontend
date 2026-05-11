@@ -13,7 +13,7 @@ const defaultPM: ProjectManager = {
 
 export const allProjects: Project[] = [
     {
-        id: 1,
+        id: "1",
         title: 'Renovasi Villa Bali',
         location: 'Ubud, Bali',
         status: 'on-track',
@@ -28,7 +28,7 @@ export const allProjects: Project[] = [
         pm: defaultPM,
     },
     {
-        id: 2,
+        id: "2",
         title: 'Pembangunan Ruko Kemang',
         location: 'Kemang, Jakarta Selatan',
         status: 'attention',
@@ -43,7 +43,7 @@ export const allProjects: Project[] = [
         pm: { ...defaultPM, name: 'Ahmad Wijaya' },
     },
     {
-        id: 3,
+        id: "3",
         title: 'Interior Cafe Senopati',
         location: 'Senopati, Jakarta',
         status: 'on-track',
@@ -58,7 +58,7 @@ export const allProjects: Project[] = [
         pm: defaultPM,
     },
     {
-        id: 4,
+        id: "4",
         title: 'Rumah Minimalis Bandung',
         location: 'Dago, Bandung',
         status: 'on-track',
@@ -73,7 +73,7 @@ export const allProjects: Project[] = [
         pm: { ...defaultPM, name: 'Siti Rahma' },
     },
     {
-        id: 5,
+        id: "5",
         title: 'Apartemen Surabaya Tower A',
         location: 'Surabaya Barat',
         status: 'completed',
@@ -88,7 +88,7 @@ export const allProjects: Project[] = [
         pm: defaultPM,
     },
     {
-        id: 6,
+        id: "6",
         title: 'Restaurant Bali Cliff',
         location: 'Uluwatu, Bali',
         status: 'completed',
@@ -103,7 +103,7 @@ export const allProjects: Project[] = [
         pm: { ...defaultPM, name: 'Dewi Kartika' },
     },
     {
-        id: 7,
+        id: "7",
         title: 'Office Tower Sudirman',
         location: 'SCBD, Jakarta',
         status: 'on-track',
@@ -118,7 +118,7 @@ export const allProjects: Project[] = [
         pm: defaultPM,
     },
     {
-        id: 8,
+        id: "8",
         title: 'Villa Tepi Pantai Lombok',
         location: 'Senggigi, Lombok',
         status: 'attention',
@@ -133,7 +133,7 @@ export const allProjects: Project[] = [
         pm: { ...defaultPM, name: 'Rudi Hermawan' },
     },
     {
-        id: 9,
+        id: "9",
         title: 'Warehouse Cikarang',
         location: 'Cikarang, Bekasi',
         status: 'completed',
@@ -148,7 +148,7 @@ export const allProjects: Project[] = [
         pm: defaultPM,
     },
     {
-        id: 10,
+        id: "10",
         title: 'Showroom Mobil Premium',
         location: 'PIK, Jakarta Utara',
         status: 'on-track',
@@ -163,7 +163,7 @@ export const allProjects: Project[] = [
         pm: { ...defaultPM, name: 'Joko Prasetyo' },
     },
     {
-        id: 11,
+        id: "11",
         title: 'Hotel Boutique Yogyakarta',
         location: 'Malioboro, Yogyakarta',
         status: 'completed',
@@ -178,7 +178,7 @@ export const allProjects: Project[] = [
         pm: defaultPM,
     },
     {
-        id: 12,
+        id: "12",
         title: 'Renovasi Rumah Heritage',
         location: 'Menteng, Jakarta Pusat',
         status: 'completed',
